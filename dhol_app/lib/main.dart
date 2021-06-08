@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'main/homepage.dart';
+import 'main/caro.dart';
 import 'main/story.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(body: Homepage()),
+      home: Scaffold(body: CarouselWithIndicatorDemo()),
     );
   }
 }
